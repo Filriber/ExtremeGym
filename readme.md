@@ -9,6 +9,7 @@ Escopo Projeto Integrador
 - Pagina "Seguir" com as redes sociais
 - Fale Conosco
 - Planos das nossas redes
+- Nossas redes sociais
 
   # MER
   ![Aqui está o Nosso Modelo Entidade Relacionamento](DiagramaDeUso.PNG)
