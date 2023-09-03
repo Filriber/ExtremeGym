@@ -10,6 +10,7 @@ Escopo Projeto Integrador
 - Fale Conosco
 - Planos das nossas redes
 - Nossas redes sociais
+- Veja nossas unidades
 
   # MER
   ![Aqui está o Nosso Modelo Entidade Relacionamento](DiagramaDeUso.PNG)
