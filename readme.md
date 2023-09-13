@@ -22,5 +22,11 @@ Escopo Projeto Integrador
   ![Serviços oferecidos pela academia](Serviços.jpg)
   ![Galeria de fotos da academia](Galeria.jpg)
   ![Area de Avaliação dos clientes](Avaliações.jpg)
-
+  ![Recursos da academia](Recursos.jpg)
+  ![Redes Sociais da academia](Social.jpg)
+  ![Fale conosco](Fale conosco.jpg)
+  ![Treinos](Treinos.1.jpg)
+  ![Treinos](Treinos.2.jpg)
   ![Tela de Login](Login.jpg)
+  ![Cadastrar-se](Cadastrar-se
+  )
