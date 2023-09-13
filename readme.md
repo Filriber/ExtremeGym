@@ -14,3 +14,7 @@ Escopo Projeto Integrador
 
   # MER
   ![Aqui está o Nosso Modelo Entidade Relacionamento](DiagramaDeUso.PNG)
+
+  # Protótipo do Site
+
+  ![Esta é a viewpoint de nosso site](inicio.jpg)
