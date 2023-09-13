@@ -18,3 +18,9 @@ Escopo Projeto Integrador
   # Protótipo do Site
 
   ![Esta é a viewpoint de nosso site](inicio.jpg)
+  ![Quem somos](Sobre.jpg)
+  ![Serviços oferecidos pela academia](Serviços.jpg)
+  ![Galeria de fotos da academia](Galeria.jpg)
+  ![Area de Avaliação dos clientes](Avaliações.jgp)
+
+  ![Tela de Login](Login.jpg)
