@@ -13,19 +13,19 @@ Escopo Projeto Integrador
 - Veja nossas unidades
 
   # MER
-  ![Aqui está o Nosso Modelo Entidade Relacionamento](DiagramaDeUso.PNG)
+  ![Aqui está o Nosso Modelo Entidade Relacionamento](Imagens/DiagramaDeUso.PNG)
 
   # Protótipo do Site
 
-  ![Esta é a viewpoint de nosso site](inicio.jpg)
-  ![Quem somos](Sobre.jpg)
-  ![Serviços oferecidos pela academia](Serviços.jpg)
-  ![Galeria de fotos da academia](Galeria.jpg)
-  ![Area de Avaliação dos clientes](Avaliações.jpg)
-  ![Recursos da academia](Recursos.jpg)
-  ![Redes Sociais da academia](Social.jpg)
-  ![Fale conosco](FaleConosco.jpg)
-  ![Treinos](Treinos.1.jpg)
-  ![Treinos](Treinos.2.jpg)
-  ![Tela de Login](Login.jpg)
-  ![Cadastrar-se](Cadastrar-se.jpg)
+  ![Esta é a viewpoint de nosso site](Imagens/inicio.jpg)
+  ![Quem somos](Imagens/Sobre.jpg)
+  ![Serviços oferecidos pela academia](Imagens/Serviços.jpg)
+  ![Galeria de fotos da academia](Imagens/Galeria.jpg)
+  ![Area de Avaliação dos clientes](Imagens/Avaliações.jpg)
+  ![Recursos da academia](Imagens/Recursos.jpg)
+  ![Redes Sociais da academia](Imagens/Social.jpg)
+  ![Fale conosco](Imagens/FaleConosco.jpg)
+  ![Treinos](Imagens/Treinos.1.jpg)
+  ![Treinos](Imagens/Treinos.2.jpg)
+  ![Tela de Login](Imagens/Login.jpg)
+  ![Cadastrar-se](Imagens/Cadastrar-se.jpg)
