@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+body {
+    margin: 0;
+}
+
+#HeaderEBackground {
+    position: relative;
+}
+
+#Header1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: transparent;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    z-index: 1; /* Adicionado z-index para sobrepor a imagem de fundo */
+
+}
+
+#Logo_Academia {
+    margin: 0 20px 0 0;
+}
+
+#Logo_Academia img {
+    width: 90%; /* Ajuste o valor conforme necessário */
+}
+
+#Menu_Links {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Menu_Links li {
+    margin-right: 70px;
+}
+
+#Menu_Links a {
+    text-decoration: none;
+    color: #ffffff; /* Cor branca para os links */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombreado nos links */
+}
+
+#container {
+    position: relative;
+}
+
+#imagemBackgroud {
+    width: 100%;
+}
+
+#XtremeGymCentral {
+    font-size: 96px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff; /* Cor branca para o texto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombreado no texto */
+}
