@@ -7,8 +7,7 @@
 
 body {
     background: #f6f5f7;
-    display: flex;
-    justify-content: center;
+
     align-items: center;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
@@ -33,7 +32,7 @@ h2 {
     background-size: auto;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 100%;
     z-index: 1;
     filter: brightness(50%);
@@ -43,8 +42,6 @@ h2 {
     position: relative;
     z-index: 1;
 }
-
-
 
 
 p {
