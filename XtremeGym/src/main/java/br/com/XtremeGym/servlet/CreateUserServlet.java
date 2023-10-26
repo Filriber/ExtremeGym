@@ -18,14 +18,9 @@ public class CreateUserServlet extends HttpServlet {
         String userCpf=req.getParameter("User-cpf");
         String userEmail=req.getParameter("User-email");
         String userSenha=req.getParameter("User-senha");
-        String userSenhaConfirma=req.getParameter("User-senhaConfirma");
-        //validação
 
-        User user= new User();
-        user.setName(userName);
-        user.setCpf(userCpf);
-        user.setEmail(userEmail);
-        user.setSenha(userSenha);
+        User user= new User(userName, userCpf, userEmail, userSenha);
+
 
         new UserDao().createUser(user);
 

@@ -6,35 +6,26 @@ public class User {
     private String email;
     private String Senha;
 
-    public String getName() {
-        return name;
+    public User(String name, String cpf, String email, String senha) {
+        this.name = name;
+        this.cpf = cpf;
+        this.email = email;
+        Senha = senha;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getName() {
+        return name;
     }
 
     public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public String getSenha() {
         return Senha;
-    }
-
-    public void setSenha(String senha) {
-        Senha = senha;
     }
 }
