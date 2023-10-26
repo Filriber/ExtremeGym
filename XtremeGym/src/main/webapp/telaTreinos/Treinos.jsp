@@ -91,7 +91,7 @@
     Contador de Treinos
 </div>
 <div id="ContadorRealDetreinos">
-    Você concluiu  até agora
+    Você concluiu ${count} até agora
 </div>
 
 </body>
