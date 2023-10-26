@@ -19,6 +19,7 @@ public class CreateUserServlet extends HttpServlet {
         String userEmail=req.getParameter("User-email");
         String userSenha=req.getParameter("User-senha");
         String userSenhaConfirma=req.getParameter("User-senhaConfirma");
+        //validação
 
         User user= new User();
         user.setName(userName);
