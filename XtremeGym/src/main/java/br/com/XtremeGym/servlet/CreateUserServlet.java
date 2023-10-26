@@ -1,5 +1,8 @@
 package br.com.XtremeGym.servlet;
 
+import br.com.XtremeGym.dao.UserDao;
+import br.com.XtremeGym.model.User;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -17,7 +20,14 @@ public class CreateUserServlet extends HttpServlet {
         String userSenha=req.getParameter("User-senha");
         String userSenhaConfirma=req.getParameter("User-senhaConfirma");
 
-        System.out.println(userName);
+        User user= new User();
+        user.setName(userName);
+        user.setCpf(userCpf);
+        user.setEmail(userEmail);
+        user.setSenha(userSenha);
+
+        new UserDao().createUser(user);
+
         req.getRequestDispatcher("telaLogin/loginCadastro.html").forward(req, resp);
     }
 }
