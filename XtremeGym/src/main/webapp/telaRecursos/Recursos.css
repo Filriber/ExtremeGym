@@ -1,0 +1,41 @@
+.tituloPrincipal{
+text-align: center;
+
+}
+.textos{
+display:flex;
+font-size: 18px;
+}
+.titulos{
+font-size: 20px;
+}
+
+.MelQua{
+margin-left: 440px;
+
+}
+.Supor{
+margin-left: 250px;
+}
+.Precos{
+margin-left: 250px;
+}
+.Parce{
+margin-left: 250px;
+}
+label{
+
+
+}
+.Qualidade{
+height: 235;
+max-width:274;
+
+}
+.Produtos{
+height: 960px;
+max-width: 271px;
+display: flex;
+padding: 10px;
+}
+
