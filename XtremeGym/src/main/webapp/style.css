@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 #HeaderEBackground {
@@ -36,22 +37,22 @@ body {
 
 #Logo_Academia img {
     width: 90%; /* Ajuste o valor conforme necessário */
+    max-width: 200px; /* Defina um limite máximo para a largura */
 }
 
 #Menu_Links {
     display: flex;
     flex-direction: row;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: .8rem;
     list-style-type: none;
     margin: 0;
-    padding: 0 40px;
+    padding: 0 5px;
     justify-content: space-between;
     align-items: center;
 }
 
 #Menu_Links li {
-    margin-right: 70px;
+    margin-right: 20px; /* Reduza a margem para dispositivos menores */
 }
 
 #Menu_Links a {
@@ -66,10 +67,11 @@ body {
 
 #imagemBackgroud {
     width: 100%;
+    height: auto; /* Ajuste a altura automaticamente */
 }
 
 #XtremeGymCentral {
-    font-size: 96px;
+    font-size: 5vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -77,4 +79,16 @@ body {
     text-align: center;
     color: #ffffff; /* Cor branca para o texto */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombreado no texto */
+}
+
+/* Adicione estilos para tornar o layout mais responsivo */
+@media screen and (max-width: 768px) {
+    #Menu_Links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #Menu_Links li {
+        margin: 10px 0;
+    }
 }
