@@ -29,3 +29,35 @@ Escopo Projeto Integrador
   ![Treinos](Imagens/Treinos.2.jpg)
   ![Tela de Login](Imagens/Login.jpg)
   ![Cadastrar-se](Imagens/Cadastrar-se.jpg)
+
+
+# SQL
+create table diasDaSemana(
+	id int unique auto_increment primary key,
+    nome Varchar(12),
+    fkTreinos int,
+		foreign key (fkTreinos) references treinos(id)
+);
+
+create table treinos (
+	id int unique auto_increment primary key,
+	nome Varchar(30),
+    fkExercicios int,
+		foreign key (fkExercicios) references treinos(id)
+);
+
+create table treinos_exe (
+	id int unique auto_increment primary key,
+	fkTreinos int,
+		foreign key (fkTreinos) references treinos(id),
+    fkExercicios int,
+		foreign key (fkExercicios) references exercicios(id)
+);
+
+create table exercicios(
+	id int unique auto_increment primary key,
+    categoria varchar(40),
+    nome varchar(50),
+    serie int,
+    repeticao int
+);
