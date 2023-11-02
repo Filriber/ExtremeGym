@@ -92,3 +92,21 @@ body {
         margin: 10px 0;
     }
 }
+
+#interface{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section{
+    scroll-snap-align: start;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color :
+    #000000 ;
+}
+
+

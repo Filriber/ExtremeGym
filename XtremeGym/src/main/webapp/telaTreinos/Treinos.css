@@ -1,6 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
-* {
-    box-sizing: border-box;
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centralizar itens horizontalmente */
+  border: none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+figcaption {
+  margin-top: 10px;
+  text-align: left;
+}
+
+button {
+  margin-top: auto; /* Centralizar verticalmente */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#TxtContadorDeTreinos,
+#ContadorRealDetreinos {
+  text-align: center;
+  margin-top: 20px;
+}
+
+li{
+list-style-type: none;
+}
