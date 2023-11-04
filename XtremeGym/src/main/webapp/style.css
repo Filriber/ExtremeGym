@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'Lexend Deca', sans-serif;
+    background-color: #F5F5F5; /* Cor de fundo alterada para um branco suave */
 }
 
 #HeaderEBackground {
@@ -97,6 +98,7 @@ body {
     height: 100vh;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
+    background-color: #F5F5F5; /* Cor de fundo alterada para um branco suave */
 }
 
 section{
@@ -105,8 +107,5 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    color :
-    #000000 ;
+
 }
-
-
