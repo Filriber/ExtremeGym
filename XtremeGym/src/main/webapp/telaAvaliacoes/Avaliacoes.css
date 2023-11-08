@@ -20,7 +20,7 @@
     max-width: 980px;
     margin: 0 auto;
     grid-gap: 40px;
-    margin-bottom: 2rem; /* Adicione uma margem inferior para separar dos outros elementos */
+    margin-bottom: 2rem;
 }
 
 .card{
@@ -63,5 +63,9 @@ p{
     font-family:Roboto;
 
     font-size:18px;
+}
+
+#Avaliacoes_Clientes{
+    margin-top: 150px;
 }
 

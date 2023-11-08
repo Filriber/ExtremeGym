@@ -11,7 +11,7 @@
    <img src="/telaTreinos/LogoXtremeGYM.png" alt="Logo XtremeGym">
 </div>
 <div id="inicio">
-    <a class="hover-1" href="./index.html">Inicio</a>
+    <a class="hover-1" href="../index.html">Inicio</a>
 </div>
 
 </header>
