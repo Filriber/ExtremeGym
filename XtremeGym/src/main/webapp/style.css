@@ -14,6 +14,26 @@ body {
     transition: color 0.3s ease;
 }
 
+#Perfil {
+    padding-left: 50px;
+
+    display: flex;
+    align-items: center; /* Alinha todos os itens ao longo do eixo transversal */
+}
+
+#iconeperfil {
+    font-size: 50px; /* Ajuste esse valor para alterar o tamanho do ícone */
+
+}
+
+.Flex {
+    display: flex;
+    align-items: center; /* Alinha todos os itens ao longo do eixo transversal */
+    justify-content: space-between;
+}
+
+
+
 #Header1{
     display:flex;
     align-items: center;
