@@ -24,6 +24,7 @@ public class CreateUserServlet extends HttpServlet {
 
         new UserDao().createUser(user);
 
-        req.getRequestDispatcher("telaLogin/loginCadastro.html").forward(req, resp);
+        resp.sendRedirect("/achar-todos-usuarios");
+        //req.getRequestDispatcher("telaLogin/loginCadastro.html").forward(req, resp);
     }
 }
