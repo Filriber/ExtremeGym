@@ -1,25 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #F5F5F5; /* Cor de fundo alterada para um branco suave */
 }
 
 #HeaderEBackground {
     position: relative;
 }
 
-#Header1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    background-color: transparent;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    width: 100%;
-    z-index: 1; /* Adicionado z-index para sobrepor a imagem de fundo */
+.hover-1 {
+    transition: color 0.3s ease;
+}
 
+#Perfil {
+    padding-left: 50px;
+
+    display: flex;
+    align-items: center; /* Alinha todos os itens ao longo do eixo transversal */
+}
+
+#iconeperfil {
+    font-size: 50px; /* Ajuste esse valor para alterar o tamanho do ícone */
+
+}
+
+.Flex {
+    display: flex;
+    align-items: center; /* Alinha todos os itens ao longo do eixo transversal */
+    justify-content: space-between;
+}
+
+
+
+#Header1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover-1:hover {
+    color: #1095c1;
 }
 
 #Logo_Academia {
@@ -28,29 +50,9 @@ body {
 
 #Logo_Academia img {
     width: 90%; /* Ajuste o valor conforme necessário */
+    max-width: 200px; /* Defina um limite máximo para a largura */
 }
 
-#Menu_Links {
-    display: flex;
-    flex-direction: row;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0 40px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#Menu_Links li {
-    margin-right: 70px;
-}
-
-#Menu_Links a {
-    text-decoration: none;
-    color: #ffffff; /* Cor branca para os links */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombreado nos links */
-}
 
 #container {
     position: relative;
@@ -58,10 +60,11 @@ body {
 
 #imagemBackgroud {
     width: 100%;
+    height: auto; /* Ajuste a altura automaticamente */
 }
 
 #XtremeGymCentral {
-    font-size: 96px;
+    font-size: 5vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -69,4 +72,58 @@ body {
     text-align: center;
     color: #ffffff; /* Cor branca para o texto */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombreado no texto */
+}
+
+#interface{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    background-color: #F5F5F5; /* Cor de fundo alterada para um branco suave */
+}
+
+section{
+    scroll-snap-align: start;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 170;
+
+
+}
+
+.Header_lista{
+    max-width:1280px;
+    margin:auto;
+}
+.Flex{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+header{
+    background-color:#fff;
+    width:100%;
+    padding-top: 30px; /* Reduzido pela metade */
+    padding-left: 4%;
+    padding-right: 4%;
+    position:fixed;
+    z-index: 999;
+}
+
+
+header ul{
+    list-style-type:none;
+}
+
+header ul li{
+    display:inline-block;
+    margin: 0 10px;
+
+}
+
+header ul li a{
+    color:black;
+    text-decoration:none;
 }

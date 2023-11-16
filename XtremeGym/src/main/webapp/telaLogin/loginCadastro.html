@@ -1,13 +1,34 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="loginCadastro.css">
+  <link rel="stylesheet" href="/telaLogin/loginCadastro.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <script>
+    function formataValorCpf(campo) {
+    var vr = campo.value;
+    if (vr.length > 0) {
+        vr = vr.replace(new RegExp("\\.","gm"), "").replace("-", "");
+    }
+
+    tam = vr.length;
+    if (tam <= 2) {
+        campo.value = vr;
+    }
+    if ((tam > 2) && (tam <= 5)) {
+        campo.value = vr.substr(0, tam - 2) + '-' + vr.substr(tam - 2, tam);
+    }
+    if ((tam >= 6) && (tam <= 8)) {
+        campo.value = vr.substr(0, tam - 5) + '.' + vr.substr(tam - 5, 3) + '-' + vr.substr(tam - 2, tam);
+    }
+    if ((tam == 11)) {
+        campo.value = vr.substr(0, tam - 8) + '.' + vr.substr(tam - 8, 3) + '.' + vr.substr(tam - 5, 3) + '-' + vr.substr(tam - 2, tam);
+    }
+};
+  </script>
 </head>
 <body>
-
-  <img id="Imagemfundo" src="./academiaxtreme.jpg" alt="Imagem de Fundo">
 
 <div class="container" id="container">
   <div class="form-container sign-up-container">
@@ -20,11 +41,13 @@
       </div>
       <span>ou use seu email para registro</span>
       <input type="text" name="User-name" id="User-name" placeholder="Nome" />
-      <input type="CPF" name="User-cpf" id="User-cpf" placeholder="CPF" />
+      <input type="cpf" onkeyup="formataValorCpf(this)" name="User-cpf" id="User-cpf" placeholder="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" maxlength=14 />
       <input type="email" name="User-email" id="User-email" placeholder="Email" />
       <input type="password" name="User-senha" id="User-senha" placeholder="Senha" />
       <input type="password" name="User-senhaConfirma" id="User-senhaConfirma" placeholder="Confirmar senha" />
       <button type="submit">Cadastrar</button>
+      <!--      Add Funçao de trocar para a tela de login para o login e então entra na tela de Logado-->
+
     </form>
   </div>
   <div class="form-container sign-in-container">
@@ -40,6 +63,7 @@
       <input type="password" placeholder="Senha" />
       <a href="#">Esqueceu sua senha?</a>
       <button>Entrar</button>
+<!--      Add Funçao de trocar para a tela de ../Area_Logado/Logado_index.html-->
     </form>
   </div>
   <div class="overlay-container">
@@ -57,7 +81,7 @@
     </div>
   </div>
 </div>
-
-<script src="loginCadastro.js"></script>
 </body>
 </html>
+
+<script src="/telaLogin/loginCadastro.js"></script>
