@@ -103,12 +103,6 @@
     </figure>
    </div>
 </div>
-<div id="TxtContadorDeTreinos">
-    Contador de Treinos
-</div>
-<div id="ContadorRealDetreinos">
-    Você concluiu ${count} até agora
-</div>
 
 </body>
 </html>
