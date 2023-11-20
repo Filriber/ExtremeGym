@@ -1,4 +1,6 @@
 <html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <head>
     <meta charset="UTF-8">
@@ -37,7 +39,7 @@
                         <li><a class="hover-1" href="#Avaliacoes_Clientes">Avaliações</a></li>
                         <li><a class="hover-1" href="#TodosRecursos">Recursos</a></li>
                         <li><a class="hover-1" href="#Fale conosco">Fale conosco</a></li>
-                        <li><a class="hover-1" href="telaLogin/loginCadastro.html">Login/Cadastre-se</a></li>
+                        <li><a class="hover-1" href="telaLogin/loginCadastro.jsp">Login/Cadastre-se</a></li>
 <!--                        <li><a class="hover-1" href="areaAdmPesquisar/telaPesquisar.jsp">Teste</a></li>-->
                     </ul>
                     <div id="Perfil">

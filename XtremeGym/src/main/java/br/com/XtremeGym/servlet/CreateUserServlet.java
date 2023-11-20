@@ -18,13 +18,22 @@ public class CreateUserServlet extends HttpServlet {
         String userCpf=req.getParameter("User-cpf");
         String userEmail=req.getParameter("User-email");
         String userSenha=req.getParameter("User-senha");
+        String userId=req.getParameter("User-id");
 
-        User user= new User(userName, userCpf, userEmail, userSenha);
+        User user= new User(userName, userCpf, userEmail, userSenha, userId);
+
+        UserDao userDao =new UserDao();
+
+        if(userId.isBlank()){
+            userDao.createUser(user);
+        }else{
+            userDao.updateUsuario(user);
+        }
 
 
-        new UserDao().createUser(user);
 
-        resp.sendRedirect("/achar-todos-usuarios");
-        //req.getRequestDispatcher("telaLogin/loginCadastro.html").forward(req, resp);
+
+        //resp.sendRedirect("/achar-todos-usuarios");
+        req.getRequestDispatcher("telaLogin/loginCadastro.jsp").forward(req, resp);
     }
 }

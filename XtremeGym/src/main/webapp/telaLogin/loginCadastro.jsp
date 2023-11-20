@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
-<html lang="pt-br">
+<html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="/telaLogin/loginCadastro.css">
@@ -40,31 +42,28 @@
         <a href="#" class="social"><i class="bi bi-instagram"></i></a>
       </div>
       <span>ou use seu email para registro</span>
-      <input type="text" name="User-name" id="User-name" placeholder="Nome" />
-      <input type="cpf" onkeyup="formataValorCpf(this)" name="User-cpf" id="User-cpf" placeholder="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" maxlength=14 />
-      <input type="email" name="User-email" id="User-email" placeholder="Email" />
-      <input type="password" name="User-senha" id="User-senha" placeholder="Senha" />
-      <input type="password" name="User-senhaConfirma" id="User-senhaConfirma" placeholder="Confirmar senha" />
+      <input type="text" name="User-name" id="User-name" placeholder="Nome" value="${param.nome}"/>
+      <input type="cpf" onkeyup="formataValorCpf(this)" name="User-cpf" id="User-cpf" value="${param.cpf}" placeholder="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" maxlength=14 />
+      <input type="email" name="User-email" id="User-email" placeholder="Email" value="${param.email}" />
+      <input type="password" name="User-senha" id="User-senha" placeholder="Senha" value="${param.senha}"/>
+      <input type="password" name="User-senhaConfirma" id="User-senhaConfirma" placeholder="Confirmar senha" value="${param.senhaConfirma}"/>
+      <input type="hidden" name="User-id" id="User-id" value="${param.id}"/>
       <button type="submit">Cadastrar</button>
       <!--      Add Funçao de trocar para a tela de login para o login e então entra na tela de Logado-->
 
     </form>
   </div>
   <div class="form-container sign-in-container">
-    <form action="#">
-      <h1>Entre com</h1>
-      <div class="social-container">
-        <a href="#" class="social"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="social"><i class="bi bi-google"></i></a>
-        <a href="#" class="social"><i class="bi bi-instagram"></i></a>
-      </div>
-      <span>ou use sua conta</span>
-      <input type="email" placeholder="Email" />
-      <input type="password" placeholder="Senha" />
-      <a href="#">Esqueceu sua senha?</a>
-      <button>Entrar</button>
-<!--      Add Funçao de trocar para a tela de ../Area_Logado/Logado_index.html-->
-    </form>
+        <form action="/login" method="post">
+
+            <span>${requestScope.message}</span>
+            <h1>Entre com sua conta</h1>
+
+            <input type="email" name="User-login-email" placeholder="Email" />
+            <input type="password" name="User-login-senha" placeholder="Senha" />
+
+            <button>Entrar</button>
+        </form>
   </div>
   <div class="overlay-container">
     <div class="overlay">
