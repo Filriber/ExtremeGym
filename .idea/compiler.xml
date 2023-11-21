@@ -9,8 +9,5 @@
         <module name="XtremeGym" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="XtremeGym" target="18" />
-    </bytecodeTargetLevel>
   </component>
 </project>
