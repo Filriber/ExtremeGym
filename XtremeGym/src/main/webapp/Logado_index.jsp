@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +11,11 @@
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <title>Document</title>
 
-    <link rel="stylesheet" href="../style.css">
+
+    <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../telaGaleria/imagens.css">
     <link rel="stylesheet" href="../telaAvaliacoes/Avaliacoes.css">
-    <link rel="stylesheet" href="../telaFaleConosco/Fale.css">
+    <link rel="stylesheet" href="../telaFaleConosco/style.css">
     <link rel="stylesheet" href="../telaSocial/Social.css">
     <link rel="stylesheet" href="../telaSobre/QuemSomos.css">
     <link rel="stylesheet" href="../telaServicos/Servico.css">
@@ -37,13 +40,14 @@
                         <li><a class="hover-1" href="#Avaliacoes_Clientes">Avaliações</a></li>
                         <li><a class="hover-1" href="#Recursos">Recursos</a></li>
                         <li><a class="hover-1" href="#Fale conosco">Fale conosco</a></li>
-                        <li><a class="hover-1" href="../telaLogin/loginCadastro.html">Login/Cadastre-se</a></li>
                         <li><a class="hover-1" href="../telaTreinos/Treinos.jsp">Treinos</a></li>
                     </ul>
                     <div id="Perfil">
                         <i id="iconeperfil" class="bi bi-person-circle"></i>
-                        Bem vindo,<div id="nomeAluno">(JOÂO)</div>
-<!--                        TROQUE O JOÂO PELA VARIAVEL DO NOME DA PESSOA LOGADA NO SITE-->
+                        <c:if test="${sessionScope.loggedUser != null}">
+                            <span>${sessionScope.loggedUser}</span>
+                            <a href="/logout">Logout</a>
+                        </c:if>
                     </div>
                 </div>
             </div>

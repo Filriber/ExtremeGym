@@ -38,7 +38,7 @@
                         <li><a class="hover-1" href="#TodosRecursos">Recursos</a></li>
                         <li><a class="hover-1" href="#Fale conosco">Fale conosco</a></li>
                         <li><a class="hover-1" href="../telaLogin/loginCadastro.html">Login/Cadastre-se</a></li>
-<!--                     <li><a class="hover-1" href="areaAdmPesquisar/telaPesquisar.jsp">Teste</a></li>-->
+<!--                        <li><a class="hover-1" href="areaAdmPesquisar/telaPesquisar.jsp">Teste</a></li>-->
                     </ul>
                     <div id="Perfil">
                         <i id="iconeperfil" class="bi bi-person-circle"></i>
@@ -182,7 +182,7 @@
                     <div class="card">
                         <img class="image_card"
                              src="https://th.bing.com/th/id/OIP.mXSEydrEw3KYce7X72uCzQHaJL?pid=ImgDet&rs=1">
-                        <h3>Julio Junior Jr Filho</h3>
+                        <h3>Julio Junior</h3>
                         <div class="stars">
                             <img src="../telaAvaliacoes/estrela%20(2).png">
                             <img src="../telaAvaliacoes/estrela%20(2).png">

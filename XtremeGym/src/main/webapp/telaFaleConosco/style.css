@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    margin-right: 5px;
+    text-align: center;
+    }
+    .botoes {
+    
+     display: right;
+     height: 20px;
+     margin-right: 10px;
+     text-align: right;
+    }
+    button {
+        text-align: center;
+        margin-top: 60px;
+        margin-right: -10px;
+        width: 600px;    height: 90px;
+        background: gray;
+        border: 15px solid white;     
+    }
+    #logo {
+        align-items: center;
+        display: flex;
+        width: 200px;
+        height:  auto;
+    }
+    
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    p {
+        color: rgb(153, 148, 148);
+        max-width: 520px; 
+        margin: 0 auto; 
+        padding: 20px
+    }
+    .container1{
+        text-align: center;
+        ;
+    }
+    .minha-caixa-de-texto {
+        border: none; /* Remove as bordas padrão */
+        border-bottom: 1px solid #000; /* Adiciona uma barra (linha) na parte inferior */
+        outline: none; /* Remove a borda de foco ao clicar na caixa de texto */
+        width: 550px;
+        
+    }
+    form {
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    /* Estilo para o contêiner do formulário usando Flexbox */
+    form {
+        display: flex;
+        flex-direction: row; /* Alinha os itens em linha (horizontal) */
+        justify-content: center; /* Centraliza os itens horizontalmente */
+        align-items: center; /* Centraliza os itens verticalmente */
+        text-align: left;
+        flex-direction: column; 
+        
+        
+    }
+
+    /* Estilo para a caixa de texto */
+    .minha-caixa-de-texto {
+        border: none;
+        border-bottom: 1px solid #000;
+        outline: none;
+        margin-right: 10px; /* Adiciona um espaçamento entre as caixas de texto */
+        
+    }
+    
+    
