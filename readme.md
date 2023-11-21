@@ -17,18 +17,17 @@ Escopo Projeto Integrador
 
   # Protótipo do Site
 
-  ![Esta é a viewpoint de nosso site](Imagens/inicio.jpg)
-  ![Quem somos](Imagens/Sobre.jpg)
-  ![Serviços oferecidos pela academia](Imagens/Serviços.jpg)
-  ![Galeria de fotos da academia](Imagens/Galeria.jpg)
-  ![Area de Avaliação dos clientes](Imagens/Avaliações.jpg)
-  ![Recursos da academia](Imagens/Recursos.jpg)
-  ![Redes Sociais da academia](Imagens/Social.jpg)
-  ![Fale conosco](Imagens/FaleConosco.jpg)
+  ![Esta é a viewpoint de nosso site](Imagens/inicio.png)
+  ![Quem somos](Imagens/QuemSomos.png)
+  ![Serviços oferecidos pela academia](Imagens/Serviços.png)
+  ![Galeria de fotos da academia](Imagens/Galeria.png)
+  ![Area de Avaliação dos clientes](Imagens/Avaliações.png)
+  ![Recursos da academia](Imagens/Recursos.png)
+  ![Fale conosco](Imagens/FaleConosco.png)
   ![Treinos](Imagens/Treinos.1.jpg)
   ![Treinos](Imagens/Treinos.2.jpg)
-  ![Tela de Login](Imagens/Login.jpg)
-  ![Cadastrar-se](Imagens/Cadastrar-se.jpg)
+  ![Tela de Login](Imagens/login.png)
+  ![Cadastrar-se](Imagens/Cadastro.png)
 
 
 # SQL
