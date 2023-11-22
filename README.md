@@ -1,5 +1,3 @@
-# ExtremeGym
-
 Escopo Projeto Integrador
 
 - Area Logada
@@ -15,21 +13,22 @@ Escopo Projeto Integrador
 - Veja nossas unidades
 
   # MER
-  ![Aqui está o Nosso Modelo Entidade Relacionamento](../ExtremeGym/ExtremeGym/Imagens/DiagramaDeUso.PNG)
+  ![Aqui está o Nosso Modelo Entidade Relacionamento](Imagens/DiagramaDeUso.PNG)
 
   # Protótipo do Site
 
-  ![Esta é a viewpoint de nosso site](../ExtremeGym/ExtremeGym/Imagens/inicio.png)
-  ![Quem somos](../ExtremeGym/ExtremeGym/Imagens/QuemSomos.png)
-  ![Serviços oferecidos pela academia](../ExtremeGym/ExtremeGym/Imagens/Serviços.png)
-  ![Galeria de fotos da academia](../ExtremeGym/ExtremeGym/Imagens/Galeria.png)
-  ![Area de Avaliação dos clientes](../ExtremeGym/ExtremeGym/Imagens/Avaliações.png)
-  ![Recursos da academia](../ExtremeGym/ExtremeGym/Imagens/Recursos.png)
-  ![Fale conosco](../ExtremeGym/ExtremeGym/Imagens/FaleConosco.png)
-  ![Treinos](../ExtremeGym/ExtremeGym/Imagens/Treinos.1.jpg)
-  ![Treinos](../ExtremeGym/ExtremeGym/Imagens/Treinos.2.jpg)
-  ![Tela de Login](../ExtremeGym/ExtremeGym/Imagens/login.png)
-  ![Cadastrar-se](../ExtremeGym/ExtremeGym/Imagens/Cadastro.png)
+  ![Esta é a viewpoint de nosso site](Imagens/inicio.jpg)
+  ![Quem somos](Imagens/Sobre.jpg)
+  ![Serviços oferecidos pela academia](Imagens/Serviços.jpg)
+  ![Galeria de fotos da academia](Imagens/Galeria.jpg)
+  ![Area de Avaliação dos clientes](Imagens/Avaliações.jpg)
+  ![Recursos da academia](Imagens/Recursos.jpg)
+  ![Redes Sociais da academia](Imagens/Social.jpg)
+  ![Fale conosco](Imagens/FaleConosco.jpg)
+  ![Treinos](Imagens/Treinos.1.jpg)
+  ![Treinos](Imagens/Treinos.2.jpg)
+  ![Tela de Login](Imagens/Login.jpg)
+  ![Cadastrar-se](Imagens/Cadastrar-se.jpg)
 
 
 # SQL
