@@ -28,7 +28,7 @@ Escopo Projeto Integrador
   ![Fale conosco](Imagens/FaleConosco.png)
   ![Treinos](Imagens/treinos.png)
   ![Tela de Login](Imagens/login.png)
-  ![Cadastrar-se](Cadastro.png)
+  ![Cadastrar-se](Imagens/Cadastro.png)
   ![Tela administração - 1](Imagens/ADM1.png)
   ![Tela administração - 2](Imagens/Adm2.png)
   ![Tela administração - 3](Imagens/Adm3.png)
