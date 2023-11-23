@@ -19,19 +19,19 @@ Escopo Projeto Integrador
 
   # Protótipo do Site
 
-  ![Esta é a viewpoint de nosso site](ExtremeGym/Imagens/inicio.png)
-  ![Quem somos](ExtremeGym/Imagens/QuemSomos.png)
-  ![Serviços oferecidos pela academia](ExtremeGym/Imagens/Serviços.png)
-  ![Galeria de fotos da academia](ExtremeGym/Imagens/Galeria.png)
-  ![Area de Avaliação dos clientes](ExtremeGym/Imagens/Avaliações.png)
-  ![Recursos da academia](ExtremeGym/Imagens/Recursos.png)
-  ![Fale conosco](ExtremeGym/Imagens/FaleConosco.png)
-  ![Treinos](ExtremeGym/Imagens/treinos.png)
-  ![Tela de Login](ExtremeGym/Imagens/login.png)
-  ![Cadastrar-se](ExtremeGym/Imagens/Cadastro.png)
-  ![Tela administração - 1](ExtremeGym/Imagens/ADM1.png)
-  ![Tela administração - 2](ExtremeGym/Imagens/Adm2.png)
-  ![Tela administração - 3](ExtremeGym/Imagens/Adm3.png)
+  ![Esta é a viewpoint de nosso site](Imagens/inicio.png)
+  ![Quem somos](Imagens/QuemSomos.png)
+  ![Serviços oferecidos pela academia](Imagens/Serviços.png)
+  ![Galeria de fotos da academia](Imagens/Galeria.png)
+  ![Area de Avaliação dos clientes](Imagens/Avaliações.png)
+  ![Recursos da academia](Imagens/Recursos.png)
+  ![Fale conosco](Imagens/FaleConosco.png)
+  ![Treinos](Imagens/treinos.png)
+  ![Tela de Login](Imagens/login.png)
+  ![Cadastrar-se](Cadastro.png)
+  ![Tela administração - 1](Imagens/ADM1.png)
+  ![Tela administração - 2](Imagens/Adm2.png)
+  ![Tela administração - 3](Imagens/Adm3.png)
 	
 
 # SQL
